@@ -28,3 +28,6 @@ def menu():
     except ValueError:
       os.system('cls')
       print('!! Input Harus Angka !!'.center(30))
+      
+def input_data_barang():
+  pass
