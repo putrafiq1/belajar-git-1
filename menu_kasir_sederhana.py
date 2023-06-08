@@ -1,5 +1,7 @@
 import os 
 
+data_barang = []
+data_transaksi = []
 def menu():
   os.system('cls')
   while True:
@@ -30,4 +32,7 @@ def menu():
       print('!! Input Harus Angka !!'.center(30))
       
 def input_data_barang():
-  pass
+  print('='*30)
+  print('Input Data Barang'.center(30))
+  print('='*30)
+  
