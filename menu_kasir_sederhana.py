@@ -62,7 +62,7 @@ def input_data_barang():
   if saran.upper() == 'Y':
     data_barang.append({
       'Nomer Barang' : int(nobarang),
-      'Nama Barang' : nama,
+      'Nama Barang' : nama.upper(),
       'Harga Barang' : int(harga),
       'Jumlah Stock': int(stok)
     })
